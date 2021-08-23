@@ -23,7 +23,7 @@ session_start();
         header("location:index.php");
     }
 
-    $conn= mysqli_connect("localhost","root","","formGenerator");
+    $conn= mysqli_connect("eu-cdbr-west-01.cleardb.com","b53e8aca15beb0","bc48f174","heroku_8c0948aa4569c5c");
 
     // Check connection
     if (mysqli_connect_errno()) {
